@@ -33,7 +33,6 @@ export const ProductCard = ({children, product, className, style, onChange, valu
           product,
           isMaxCountReached
       }}>
-
         <div className={`${styles.productCard} ${ className } `}
               style={style}
         >
